@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Form from './Form';
+import FormList from './Components/FormList';
 
 function App() {
   return (
     <div className="App">
       <h1>React Form Paractice</h1>
-      <Form />
+      <FormList />
     </div>
   );
 }
